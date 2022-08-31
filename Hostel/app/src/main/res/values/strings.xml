@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hostel</string>
+
+
+    <string name="room">ROOM NUMBER</string>
+    <string name="space">AVAILABLE SPACE</string>
+    <string name="submit">SUBMIT</string>
+
+
+</resources>

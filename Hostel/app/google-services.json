@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "128632300801",
+    "firebase_url": "https://portal-55c30-default-rtdb.firebaseio.com",
+    "project_id": "portal-55c30",
+    "storage_bucket": "portal-55c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128632300801:android:39027b1274a72f9d5de700",
+        "android_client_info": {
+          "package_name": "com.example.facultyportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg3jLtFasdUxFS79eRxb3V0d4-sTZNB00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128632300801:android:9d7322acec0f7abe5de700",
+        "android_client_info": {
+          "package_name": "com.example.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg3jLtFasdUxFS79eRxb3V0d4-sTZNB00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128632300801:android:01ac1cf9325be4e95de700",
+        "android_client_info": {
+          "package_name": "com.example.studentsportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg3jLtFasdUxFS79eRxb3V0d4-sTZNB00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128632300801-5pe6j6srugveok22cimccb1e29vchd9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

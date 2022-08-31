@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StudentsPortal</string>
+
+    <string name="hello_world">Hello Round World!</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+
+    <string name="email">ENTER EMAIL</string>
+    <string name="password">ENTER PASSWORD</string>
+    <string name="confirmPassword">CONFIRM PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="input">TYPE MESSAGE</string>
+
+
+    <string-array name="spinner_name">
+        <item>SELECT UNIT CODE</item>
+    </string-array>
+
+
+    <string-array name="courses">
+        <item>SELECT COURSE</item>
+        <item>COMPUTING</item>
+        <item>EDUCATION</item>
+        <item>HOSPITALITY</item>
+        <item>BUSINESS</item>
+        <item>COMMUNITY DEVELOPMENT</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barLayout1">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolBar"
+            android:background="@color/Royal_blue"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/courseName"
+        android:text="COURSE CODE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#DC2121"
+        android:textSize="35sp"
+        android:id="@+id/courseCode"/>
+
+    <Spinner
+        android:id="@+id/courseName"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="BSCS 405"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/catText"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/courseName"
+        android:text="CAT MARKS"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/catText"
+        android:id="@+id/CAT"
+        android:layout_below="@id/courseName"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/ExamText"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catText"
+        android:layout_marginTop="40dp"
+        android:text="EXAM MARKS"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ExamText"
+        android:layout_below="@id/catText"
+        android:id="@+id/EXAMS"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/Assignment"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ExamText"
+        android:layout_marginTop="40dp"
+        android:text="ASSIGNMENT"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Assignment"
+        android:layout_below="@id/ExamText"
+        android:id="@+id/Assino"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Assignment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT" />
+
+</RelativeLayout>
